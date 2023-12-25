@@ -1,0 +1,25 @@
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+#content-b {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+    align-items: center;
+}
+#testimonial {
+    width: 50%;
+    padding: 60px;
+}
+#d-img {
+    width: 50%;
+}
