@@ -18,8 +18,11 @@
 }
 #testimonial {
     width: 50%;
-    padding: 60px;
+    padding: 120px;
+    color: black;
 }
 #d-img {
     width: 50%;
+    margin: 20px auto;
+    border-radius: 20px;
 }

@@ -1,17 +1,19 @@
 import restauImg from './restau.jpg';
 
+
 export default function pageLoad() {
     const content = document.getElementById("content");
 
     const header = document.createElement("div");
     header.setAttribute("id", "header");
-    header.textContent = "They got really good food. Despite my being a foodie, the taste of their food is out of this world";
+    header.textContent = "Welcome to our Restaurant Page";
 
     const cnt = document.createElement("div");
     cnt.setAttribute("id", "content-b");
 
     const testi = document.createElement("div");
     testi.setAttribute("id", "testimonial");
+    testi.innerText = "They got really good food. Despite my being a foodie, the taste of their food is out of this world";
     cnt.appendChild(testi);
 
     const dImg = document.createElement("div");
