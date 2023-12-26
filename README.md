@@ -3,7 +3,8 @@
 
 ## Description
 
-The project builds a restaurant page.
+The project builds a restaurant page. 
+* The major aim of this project is give a heads up on using webpack for code transpilation.
 
 
 ## The Odin Project (Web development) Completed projects
