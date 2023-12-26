@@ -15,10 +15,18 @@
 
 #right {
     display: flex;
+    margin-right: 16%;
 }
 
 button {
     border-radius: 10px;
+    margin: 0 25px;
+    font-weight: bold;
+    width: 90px;
+}
+
+button:hover {
+    background-color: aliceblue;
 }
 
 
