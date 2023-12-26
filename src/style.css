@@ -4,9 +4,21 @@
 }
 
 #header {
+    display: flex;
+    justify-content: space-between;
+}
+#left {
     font-weight: bold;
     font-size: 40px;
     text-align: center;
+}
+
+#right {
+    display: flex;
+}
+
+button {
+    border-radius: 10px;
 }
 
 
