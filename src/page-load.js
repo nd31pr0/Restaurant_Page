@@ -1,3 +1,5 @@
+import restauImg from './restau.jpg';
+
 export default function pageLoad() {
     const content = document.getElementById("content");
 
@@ -14,6 +16,11 @@ export default function pageLoad() {
 
     const dImg = document.createElement("div");
     dImg.setAttribute("id", "d-img");
+    
+    const myIcon = new Image();
+    myIcon.src = restauImg;
+    dImg.appendChild(myIcon);
+
     cnt.appendChild(dImg);
 
     content.appendChild(header);
