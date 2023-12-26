@@ -1,16 +1,18 @@
 #content {
     display: flex;
     flex-direction: column;
+    background-color: bisque;
 }
 
 #header {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 #left {
     font-weight: bold;
     font-size: 40px;
-    text-align: center;
+    margin: 0 auto;   
 }
 
 #right {
