@@ -1,21 +1,24 @@
+import Header from './Header.js';
 import restauImg from './restau.jpg';
-import menu from './Menu.js';
-
+import Contact from './Contact.js';
 
 export default function pageLoad() {
-    const content = document.getElementById("content");
+    const content = document.getElementById('content');
+    content.innerHTML = ''; // Clear existing content
 
-    //header = Header();
-    const header = document.createElement("div");
-    header.setAttribute("id", "header");
+    content.appendChild(Header()); // Add header
+
+    // //header = Header();
+    // const header = document.createElement("div");
+    // header.setAttribute("id", "header");
     
 
-    const left = document.createElement("div")
-    left.setAttribute("id", "left");
-    left.textContent = "Welcome to our Restaurant Page";
+    // const left = document.createElement("div")
+    // left.setAttribute("id", "left");
+    // left.textContent = "Welcome to our Restaurant Page";
 
-    const right = document.createElement("div")
-    right.setAttribute("id", "right");
+    // const right = document.createElement("div")
+    // right.setAttribute("id", "right");
     
 
     const home = document.createElement("button");
@@ -71,4 +74,5 @@ export default function pageLoad() {
     content.appendChild(header);
     content.appendChild(cnt);
 }
+
 

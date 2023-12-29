@@ -1,8 +1,10 @@
+import Header from './Header.js';
 import restauImg from './restau.jpg';
 
-
 export default function Menu() {
-    const content = document.getElementById('content')
+    const content = document.getElementById('content');
+    content.innerHTML = ''; // Clear existing content
+    content.appendChild(Header()); // Add header
 
     const txt = document.createElement('div');
     txt.setAttribute('id', 'txt-1');
@@ -18,3 +20,7 @@ export default function Menu() {
     content.appendChild(txt);
     content.appendChild(dImg);
 }
+
+
+
+

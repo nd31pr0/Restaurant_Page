@@ -1,11 +1,11 @@
-import pageLoad from "./page-load";
-import Menu from "./Menu";
-import Contact from "./Contact";
+import pageLoad from './page-load.js';
+import Menu from './Menu.js';
+import Contact from './Contact.js';
 
-const header = document.createElement("div");
-    header.setAttribute("id", "header");
+export default function Header() {
+    const header = document.createElement('div');
+    header.setAttribute('id', 'header');
     
-
     const left = document.createElement("div")
     left.setAttribute("id", "left");
     left.textContent = "Welcome to our Restaurant Page";
@@ -43,3 +43,6 @@ const header = document.createElement("div");
     contact.onclick = function() {
         return Contact();
     }
+
+    return header; // Return the header element
+}
