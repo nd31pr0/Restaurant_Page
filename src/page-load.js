@@ -1,6 +1,7 @@
 import Header from './Header.js';
 import restauImg from './restau.jpg';
 import Contact from './Contact.js';
+import Menu from './Menu.js';
 
 export default function pageLoad() {
     const content = document.getElementById('content');
