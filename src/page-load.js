@@ -1,9 +1,11 @@
 import restauImg from './restau.jpg';
+import menu from './Menu.js';
 
 
 export default function pageLoad() {
     const content = document.getElementById("content");
 
+    //header = Header();
     const header = document.createElement("div");
     header.setAttribute("id", "header");
     
@@ -33,6 +35,20 @@ export default function pageLoad() {
 
     header.appendChild(left);
     header.appendChild(right);
+
+    home.onclick = function() {
+        return  pageLoad();
+    }
+
+    menu.onclick = function() {
+        return Menu();
+    }
+
+    contact.onclick = function() {
+        return Contact();
+    }
+
+
 
 
     const cnt = document.createElement("div");
