@@ -19,22 +19,6 @@ export default function pageLoad() {
 
     // const right = document.createElement("div")
     // right.setAttribute("id", "right");
-    
-
-    const home = document.createElement("button");
-    home.setAttribute("id", "home");
-    home.textContent = "Home"
-    right.appendChild(home);
-
-    const menu = document.createElement("button");
-    menu.setAttribute("id", "menu");
-    menu.textContent = "Menu"
-    right.appendChild(menu);
-
-    const contact = document.createElement("button");
-    contact.setAttribute("id", "contact");
-    contact.textContent = "Contact";
-    right.appendChild(contact);
 
     header.appendChild(left);
     header.appendChild(right);
