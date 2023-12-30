@@ -1,5 +1,7 @@
 import Header from './Header.js';
 import restauImg from './restau.jpg';
+import './style.css';
+
 
 export default function pageLoad() {
     const content = document.getElementById('content');
@@ -10,20 +12,12 @@ export default function pageLoad() {
     // Creating main container for the home page
     const homeContainer = document.createElement('div');
     homeContainer.setAttribute('id', 'home-container');
-    homeContainer.style.display = 'flex';
-    homeContainer.style.flexDirection = 'column';
-    homeContainer.style.alignItems = 'center';
-    homeContainer.style.justifyContent = 'center';
-    homeContainer.style.margin = '20px';
-    homeContainer.style.padding = '20px';
-    homeContainer.style.borderRadius = '10px';
-    homeContainer.style.backgroundColor = '#f3f3f3';
+    
 
     // Welcome message
     const welcomeMsg = document.createElement('h1');
+    welcomeMsg.setAttribute('id', 'h-1')
     welcomeMsg.textContent = 'Welcome to Our Restaurant';
-    welcomeMsg.style.color = '#333';
-    welcomeMsg.style.marginBottom = '15px';
 
     // Introduction text
     const introText = document.createElement('p');
@@ -32,11 +26,8 @@ export default function pageLoad() {
 
     // Restaurant image
     const image = new Image();
+    image.setAttribute('id', 'rest-img')
     image.src = restauImg;
-    image.style.width = '300px';
-    image.style.height = '200px';
-    image.style.borderRadius = '10px';
-    image.style.marginTop = '20px';
 
     // Appending elements to the home container
     homeContainer.appendChild(welcomeMsg);
