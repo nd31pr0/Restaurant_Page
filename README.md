@@ -8,7 +8,7 @@ The project builds a restaurant page.
 * All project code is written within the src folder and tranpiled code is found in the dist folder.
 
 ## Sample Output
-![Alt text](snapshot.png)
+![Sample snapshot of homepage](snapshot.png)
 
 ## The Odin Project (Web development) Completed projects
  
