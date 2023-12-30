@@ -7,6 +7,8 @@ The project builds a restaurant page.
 * The major aim of this project is give a heads up on using webpack for code transpilation.
 * All project code is written within the src folder and tranpiled code is found in the dist folder.
 
+## Sample Output
+![Alt text](snapshot.png)
 
 ## The Odin Project (Web development) Completed projects
  
