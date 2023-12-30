@@ -21,3 +21,5 @@ The project builds a restaurant page.
 * [Seventh Project - Admin Dashboard](https://github.com/nd31pr0/Admin-Dashboard) [HTML | CSS | JavaScript]
 * [Eighth Project -Library Project](https://github.com/nd31pr0/Library-Project)[HTML | CSS | JavaScript]
 * [Ninth Project - Tic Tac Toe Game](https://github.com/nd31pr0/2-Player-Tic-Tac-Toe)[HTML | CSS | JavaScript]
+* [Tenth Project - Restaurant Page](https://nd31pr0.github.io/Restaurant_Page/)
+[HTRML | CSS | JavaScript | Webpack]
