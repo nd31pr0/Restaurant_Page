@@ -1,5 +1,7 @@
 import Header from './Header.js';
 import restauImg from './restau.jpg';
+import './style.css';
+
 
 export default function Menu() {
     const content = document.getElementById('content');
@@ -8,15 +10,7 @@ export default function Menu() {
 
     // Creating main container for the menu page
     const menuContainer = document.createElement('div');
-    menuContainer.setAttribute('id', 'menu-container');
-    menuContainer.style.display = 'flex';
-    menuContainer.style.flexDirection = 'column';
-    menuContainer.style.alignItems = 'center';
-    menuContainer.style.justifyContent = 'center';
-    menuContainer.style.margin = '20px';
-    menuContainer.style.padding = '20px';
-    menuContainer.style.borderRadius = '10px';
-    menuContainer.style.backgroundColor = '#f3f3f3';
+    menuContainer.setAttribute('id', 'home-container');
 
     // Menu items
     const dishes = [
@@ -42,11 +36,8 @@ export default function Menu() {
 
         // Dish image
         const image = new Image();
+        image.setAttribute('id', 'dish-image')
         image.src = restauImg;
-        image.style.width = '200px';
-        image.style.height = '150px';
-        image.style.borderRadius = '10px';
-        image.style.marginTop = '10px';
 
         // Appending elements to the dish container
         dishContainer.appendChild(dishName);

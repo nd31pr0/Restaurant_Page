@@ -1,6 +1,6 @@
 import Header from './Header.js';
-
 import restauImg from './restau.jpg'; // Import missing restauImg
+import './style.css'
 
 export default function Contact() {
     const content = document.getElementById('content');
@@ -9,15 +9,7 @@ export default function Contact() {
     content.appendChild(Header());
     // Creating main container for the contact page
     const contactContainer = document.createElement('div');
-    contactContainer.setAttribute('id', 'contact-container');
-    contactContainer.style.display = 'flex';
-    contactContainer.style.flexDirection = 'column';
-    contactContainer.style.alignItems = 'center';
-    contactContainer.style.justifyContent = 'center';
-    contactContainer.style.margin = '20px';
-    contactContainer.style.padding = '20px';
-    contactContainer.style.borderRadius = '10px';
-    contactContainer.style.backgroundColor = '#f3f3f3';
+    contactContainer.setAttribute('id', 'home-container');
 
     // Adding a header
     const contactHeader = document.createElement('h1');
@@ -32,11 +24,9 @@ export default function Contact() {
 
     // Image
     const image = new Image();
+    image.setAttribute('id', 'rest-img');
     image.src = restauImg;
-    image.style.width = '300px';
-    image.style.height = '200px';
-    image.style.borderRadius = '10px';
-    image.style.marginTop = '20px';
+    
 
     // Appending elements to the container
     contactContainer.appendChild(contactHeader);
