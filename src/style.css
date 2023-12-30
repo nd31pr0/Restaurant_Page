@@ -49,3 +49,6 @@ button:hover {
     margin: 20px auto;
     border-radius: 20px;
 }
+#txt-1 {
+    font-weight: 500;
+}
